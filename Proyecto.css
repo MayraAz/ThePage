@@ -1,0 +1,73 @@
+body {
+    background-image: url("Imagenes/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+    border-bottom: 2px solid black;   
+    color: white;
+    font-size: 5vw;
+    font-family: sans-serif;
+    text-shadow: 2px 0 0 rgb(0, 0, 0), -2px 0 0 #000, 0 2px 0 rgb(0, 0, 0), 0 -2px 0 rgb(0, 0, 0), 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+h3 {
+    text-align: center;
+    border-style: solid ;
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    letter-spacing: 0;
+    text-shadow: -1px -1px 1px rgb(25, 0, 255), 1px -1px 1px rgb(25, 0, 255), -1px 1px 1px rgb(25, 0, 255), 1px 1px 1px rgb(25, 0, 255);
+}
+img {/*Imagenes*/
+
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 65%;
+}
+.imagenes > h1 {
+    text-align:center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vw;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #0000DF, 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+}
+#menu ul li {/*Color de los botones*/
+    text-align: center;
+    background-color:#6e5607;
+}
+#menu ul {
+    text-align: center;
+    list-style:none;
+    margin:100;
+    padding:100;/*Alineacion de los botones*/
+}
+#menu ul a {/*Letras*/
+    text-align: center;
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:15px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+#menu ul li {/*Acomodo de los botones en fila*/
+    text-align: center;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+#menu ul li:hover {/*Cambio de color al dar clic en los botones*/
+    text-align: center;
+    background:#5b78a7;
+}
